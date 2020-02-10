@@ -1,0 +1,497 @@
+@font-face {
+  font-family: "Didot";
+  src: url("../fonts/Didot/Didot.eot");
+  src: 
+  url("../fonts/Didot/Didot.woff") format("woff"),
+  url("../fonts/Didot/Didot.svg#filename") format("svg");
+}
+  
+@font-face {
+  font-family: "Didot-Bold";
+  src: url("../fonts/Didot-Bold/Didot-Bold.eot");
+  src: 
+  url("../fonts/Didot-Bold/Didot-Bold.woff") format("woff"),
+  url("../fonts/Didot-Bold/Didot-Bold.svg#filename") format("svg");
+}
+@font-face {
+  font-family: "NunitoSans-Regular";
+  src: url("../fonts/NunitoSans-Regular/NunitoSans-Regular.eot");
+  src: 
+  url("../fonts/NunitoSans-Regular/NunitoSans-Regular.woff") format("woff"),
+  url("../fonts/NunitoSans-Regular/NunitoSans-Regular.svg#filename") format("svg");
+}
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url("../fonts/NunitoSans-Bold/NunitoSans-Bold.eot");
+  src: 
+  url("../fonts/NunitoSans-Bold/NunitoSans-Bold.woff") format("woff"),
+  url("../fonts/NunitoSans-Bold/NunitoSans-Bold.svg#filename") format("svg");
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.SFLanding-Option1 header {
+	padding-top: 3em;
+	padding-bottom: 2em;
+}
+.nunitoSans-regular {
+  font-family: "NunitoSans-Regular";
+}
+.SFLanding-Option1 img, iframe {
+  max-width: 100%;
+}
+.center-align {
+  text-align: center;
+}
+.right-align {
+  text-align: right;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-gutters {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*********** Carousel Panels *********/
+
+.SFLanding-Option1 .carousel-right {
+	background: #f0ebe6;
+	text-align:center;
+	height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SFLanding-Option1 .border-container {
+	text-align: center;
+    display: flex;
+	height: 200px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #7e9fbe;
+    border-bottom: 2px solid #7e9fbe;
+	width: 90%;
+}
+.SFLanding-Option1 .border-container img {
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+	.SFLanding-Option1 .carousel-container {
+		display: flex;
+		align-items: center;
+		background: #f0ebe6;
+	}
+	
+	.SFLanding-Option1 .border-container {
+		height: 250px;
+	}
+	
+	.SFLanding-Option1 .border-container img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.SFLanding-Option1 .border-container {
+		height: 260;
+	}	
+}
+
+@media screen and (min-width: 1140px) {	
+	.SFLanding-Option1 .border-container {
+		height: 300px;
+	}
+}
+
+
+/********** End Carousel Panels **********/
+
+
+.home-para-wrap {
+
+}
+.container-break {
+  margin-top: 4em;
+}
+.p-content {
+  font-size: 18px;
+  margin-bottom: 3em;
+  color: #00103b;
+}
+p.nunitoSans-regular {
+  font-size:  18px;
+  padding: 0;
+}
+.full-p-wrap-inner {
+  position: relative;
+}
+.full-p-wrap-inner img{
+  width: 100%;
+}
+.top-text-p {
+    position: absolute;
+    width: 100%;
+    padding: 0px 15px;
+	z-index: 1;
+}
+.top-text-p p {
+  font-size: 18px;
+}
+.top-text-p h3 {
+  font-family: "Didot-Bold";
+}
+.color-white p,
+.color-white h1,
+.color-white h2,
+.color-white h3,
+.color-white h4,
+.color-white h5,
+.color-white h6 {
+  color: #fff;
+}
+.full-p-wrap-inner a {
+	color: #000;
+	background: #fff;
+	position: absolute;
+	z-index: 9;
+	bottom: 15px;
+	width: 94%;
+	padding: 10px 15px;
+	text-align: center;
+	margin-left: 3%;
+	margin-right: 3%;
+	font-family: "NunitoSans-bold";
+	font-weight: bold;
+}
+
+.full-p-img {
+
+}
+
+.full-p-img > img {
+	width: 100%;
+}
+
+.full-p-wrap {
+  margin-bottom: 30px;
+}
+
+.vertical-p-p {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  color: #00103b;
+}
+
+.vertical-product-warp {
+	display: inline-block;
+  width: 100%;
+  margin-bottom: 2em;
+  min-height: 150px;
+}
+hr {
+	display: none;
+}
+
+.vertical-p-wrap-red hr {
+  
+}
+.vertical-product-inner {
+
+}
+.vpi {
+
+}
+.vpt {
+  font-size: 18px;
+  color: #00103b;
+  padding-left: 30px;
+}
+.vpb {
+	font-size: 18px;
+	border-left: 2px solid #7ea9c8;
+	padding-left: 30px;
+}
+div.vpb{
+  padding-left: 30px;
+}
+.vpb a {
+	background: #00103b;
+	color: #fff;
+	clear: both;
+	display: inline-block;
+	margin-top: 12px;
+	font-family: "NunitoSans-Bold";
+	font-size: 14px;
+	padding: 5px 14px;
+}
+.vpbb {
+  font-family: "Didot-Bold";
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.vpbb span.vbigtext {
+	font-size: 24px;
+	display: inline-block;
+	width: 100%;
+	text-transform: uppercase;
+}
+.SFLanding-Option1 sup {
+  top: -.6em;
+  font-size: 55%;
+}
+.vpbb span.vbigtext sup {
+	top: 0px;
+	font-size: 24px;
+}
+.vpbb span.vsmalltext {
+	margin-top: -11px;
+	display: inherit;
+}
+
+.SFLanding-Option1 a.red-button {
+  background: #c8645d;
+}
+.vpb.redborder {
+  border-left: 2px solid #c8645d;
+}
+
+
+
+.product-points {
+  font-size: 18px;
+  margin-bottom: 2em;
+  padding-left: 0px;
+  font-family: "NunitoSans-Regular";
+  list-style: none;
+
+}
+
+.product-points li {
+	margin: 0;
+    margin-bottom: 5px;
+    padding-left: 1em;
+    position: relative;
+}
+
+.product-points li:after {
+	  content: '';
+      height: .3em;
+      width: .3em;
+      background: #c8645d;
+      display: block;
+      position: absolute;
+      transform: rotate(45deg);
+      top: .4em;
+      left: 0;
+}
+
+
+/********** Carousel Styles **********/
+@media only screen and (min-width: 768px) {
+  .carousel-indicators {
+    left: 35%;
+  }
+}
+
+.desktop-hide {
+  display: none;
+}
+.mobile-hide {
+  display: block;
+}
+.carousel-inner > .item {
+  
+}
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
+.carousel-indicators li {
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-bottom-color: #908c8a;
+	position: relative;
+  top: 0;
+  margin: 0;
+}
+.carousel-indicators li::after {
+	content: '';
+	position: absolute;
+	left: -6px;
+	top: 7px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-top-color: #908c8a;
+}
+
+.carousel-indicators .active {
+  background: none;
+}
+.carousel-indicators li.active {
+  border-bottom-color: #fff;
+}
+.carousel-indicators li.active::after {
+  border-top-color: #fff;
+}
+
+@media only screen and (max-width: 1200px) { 
+  .vpb {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+	
+  .mobile-hide {
+    display: none;
+  }
+  .desktop-hide {
+    display: block;
+  }
+  
+	hr {
+    border-bottom: 2px solid #7ea9c8;
+    margin-bottom: 3em;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block;
+  }
+  .vpi {
+    margin-bottom: 25px;
+  }
+  .vpbb {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+  }
+  .vpb {
+    border-left: 0;
+    padding-left: 15px;
+  }
+  .vpb a {
+    padding: 10px 20px;
+  }
+  .vpb.redborder {
+    border-left: 0;
+    padding-left: 15px;
+  }
+  .vpb.redborder a {
+    padding: 10px 20px;
+  }
+  
+  .vertical-p-wrap-red hr {
+    border-bottom: 2px solid #c8645d;
+  }
+  .vpt {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+	.carousel-indicators {
+    position: relative;
+    left: 50%;
+    top: auto !important;
+    bottom:  0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .imageright {
+    padding: 13% 0em;
+    margin-top: 0;
+  }
+  
+  .SFLanding-Option1 .logo {
+    padding: 0 30px;
+  }
+  .home-para-title {
+    font-size: 38px;
+  }
+  .home-para-sub {
+    font-size: 75px;
+  }
+  .p-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .full-p-wrap-inner img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .top-text-p {
+    text-align: left;
+  }
+  .vertical-p-title {
+    font-size: 65px;
+    width: 19%;
+  }
+  .vertical-p-sub {
+    font-size: 29px;
+    line-height: 25px;
+    width: 52%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carousel-indicators {
+	 top: -285px !important
+  }
+  
+  /** Workaround for IE not supporting object-fit: cover **/
+  .full-p-img {
+	  position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+  }
+  
+  .full-p-img > img {
+		top: 50%;
+		left: 50%;
+		position: relative;
+		transform: translate(-50%, -50%);
+		max-width: none;
+		height: 100%;
+		width: 100%;
+  }
+}
+
+div.container {
+  max-width: 100%;
+}
